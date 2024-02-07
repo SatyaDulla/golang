@@ -64,4 +64,23 @@ func main() {
 	calculateEven(num)
 	fmt.Println(demonstrateIfElseIfElse(num))
 	fmt.Println(demonstrateShortStatement(5))
+
+	fmt.Println("\n----------------------------------------------")
+
+	allNumbers(num)
+	fmt.Println("\n------------")
+	allNumbersBreak(num)
+	fmt.Println("\n------------")
+	allNumbersContinue(num)
+	fmt.Println("\n------------")
+	allNumbersNestedLoop(num)
+	fmt.Println("\n------------")
+	demonstrateRangeLoop()
+
+	fmt.Println("\n----------------------------------------------")
+	// Example usage of parseCard and firstTurn functions
+	card1, card2, dealerCard := "ace", "king", "queen"
+	fmt.Println("Parsed card value:", parseCard(card1))
+	decision := firstTurn(card1, card2, dealerCard)
+	fmt.Println("Decision:", decision)
 }
