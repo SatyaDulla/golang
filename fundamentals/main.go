@@ -55,8 +55,13 @@ func main() {
 	fmt.Println("\n\n----------------------------------------------")
 
 	fmt.Println("\nSimple Interest Calculation")
-    si := simpleinterest.Calculate(p, r, t)
-    fmt.Printf("Simple interest is: %.2f\n", si)
+	si := simpleinterest.Calculate(p, r, t)
+	fmt.Printf("Simple interest is: %.2f\n", si)
 
 	fmt.Println("\n----------------------------------------------")
+
+	num := 4
+	calculateEven(num)
+	fmt.Println(demonstrateIfElseIfElse(num))
+	fmt.Println(demonstrateShortStatement(5))
 }
