@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 // https://go.dev/play/p/27TL4OcZ0hY
-func fund_variables() {
+func fundVariables() {
+	fmt.Println("\n\n################################################")
+	fmt.Println("####      variables		####")
+	fmt.Println("################################################")
 	// Example of multiple variable declarations using var block
 	var (
 		name   = "Satya" // Type inferred as string

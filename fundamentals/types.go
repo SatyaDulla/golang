@@ -4,7 +4,10 @@ import "fmt"
 
 // https://go.dev/play/p/W00T5PB2Wsu
 
-func fund_types() {
+func fundTypes() {
+	fmt.Println("\n\n################################################")
+	fmt.Println("####      types		####")
+	fmt.Println("################################################")
 	// int type
 	// Declaring an integer variable 'x' with explicit type and 'y' with type inference.
 	var x int = 1

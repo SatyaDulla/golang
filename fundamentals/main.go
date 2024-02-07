@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	fund_variables()
-	fund_types()
+	fundVariables()
+	fundTypes()
+	fundConstants()
 }
