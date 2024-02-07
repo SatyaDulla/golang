@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-// https://go.dev/play/p/4WgCge7Qs5m
-func main() {
+// https://go.dev/play/p/27TL4OcZ0hY
+func fund_variables() {
 	// Example of multiple variable declarations using var block
 	var (
 		name   = "Satya" // Type inferred as string
@@ -36,4 +36,5 @@ func main() {
 	// Short declaration for multiple variables
 	myHomeHeadCount, wifeHomeHeadCount := 3, 5 // Both inferred as int
 	fmt.Println("Next counts are", myHomeHeadCount, "and", wifeHomeHeadCount)
+	fmt.Println("\n\n----------------------------------------------")
 }
